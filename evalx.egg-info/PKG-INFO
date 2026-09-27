@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: evalx
+Version: 0.1.0
+Summary: A fast, safe, and beautiful terminal mathematical calculator and expression evaluator
+Author: Snehil Khokhar
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown

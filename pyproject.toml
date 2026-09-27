@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evalx"
+version = "0.1.0"
+description = "A fast, safe, and beautiful terminal mathematical calculator and expression evaluator"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Snehil Khokhar" }]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+evalx = "evalx.cli:main"
+calc = "evalx.cli:main"
+mathx = "evalx.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
