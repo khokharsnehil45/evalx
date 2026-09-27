@@ -1,4 +1,0 @@
-[console_scripts]
-calc = evalx.cli:main
-evalx = evalx.cli:main
-mathx = evalx.cli:main
